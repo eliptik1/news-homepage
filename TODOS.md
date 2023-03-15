@@ -1,5 +1,5 @@
-[] Introduction
-[] Remove unused codes
+[x] Introduction
+[x] Remove unused codes
 [] Add reset CSS and custom CSS
 [] Add custom fonts
 [] Header
