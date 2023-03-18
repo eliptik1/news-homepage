@@ -2,7 +2,7 @@
 [x] Remove unused codes
 [x] Add reset CSS and custom CSS
 [x] Add custom fonts
-[] Header
+[x] Header
 [] Main grid layout
 [] Featured news
 [] Sidebar news

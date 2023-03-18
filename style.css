@@ -6,7 +6,38 @@ Grayish blue: hsl(233, 8%, 79%)
 Dark grayish blue: hsl(236, 13%, 42%)
 Very dark blue: hsl(240, 100%, 5%) */
 
+:root {
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%)
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-size: 15px;
+}
+
+.container {
+    margin-top: 72px;
+    max-width: 1024px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    gap: 36px;
+}
+
+header nav a {
+    color: var(--dark-grayish-blue);
 }
