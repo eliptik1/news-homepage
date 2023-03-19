@@ -3,7 +3,7 @@
 [x] Add reset CSS and custom CSS
 [x] Add custom fonts
 [x] Header
-[] Main grid layout
+[x] Main grid layout
 [] Featured news
 [] Sidebar news
 [] Bottom news
