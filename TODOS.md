@@ -4,7 +4,7 @@
 [x] Add custom fonts
 [x] Header
 [x] Main grid layout
-[] Featured news
+[x] Featured news
 [] Sidebar news
 [] Bottom news
 [] Last touches/responsive

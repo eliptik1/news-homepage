@@ -7,6 +7,9 @@ Dark grayish blue: hsl(236, 13%, 42%)
 Very dark blue: hsl(240, 100%, 5%) */
 
 :root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --white: hsl(36, 100%, 99%);
     --grayish-blue: hsl(233, 8%, 79%);
     --dark-grayish-blue: hsl(236, 13%, 42%);
     --very-dark-blue: hsl(240, 100%, 5%)
@@ -15,6 +18,7 @@ Very dark blue: hsl(240, 100%, 5%) */
 body {
     font-family: "Inter", sans-serif;
     font-size: 15px;
+    line-height: 1.5;
 }
 
 .container {
@@ -45,17 +49,51 @@ header nav a {
 /* Main */
 
 main {
+    margin-top: 72px;
     display: grid;
-    grid-template-areas:    "featuredNew newsSidebar"
-                            "newsBottom newsBottom";
+    grid-template-areas:    "featuredNew featuredNew newsSidebar"
+                            "newsBottom newsBottom newsBottom";
 }
+
+/* Featured new */
 
 section#featured-new {
     grid-area: featuredNew;
 }
+
+section#featured-new h1 {
+    line-height: 36px;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--very-dark-blue);
+}
+
+.featured-new-body {
+    margin-top: 24px;
+    display: flex;
+}
+
+.featured-new-description p {
+    color: var(--dark-grayish-blue);
+}
+
+.featured-new-description button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    background-color: var(--soft-red);
+}
+
+/* Featured sidebar */
+
 section#news-sidebar {
     grid-area: newsSidebar;
 }
+
+/* News bottom */
+
 section#news-bottom {
     grid-area: newsBottom;
 }
