@@ -67,11 +67,16 @@ section#featured-new h1 {
     font-size: 36px;
     font-weight: 800;
     color: var(--very-dark-blue);
+    flex: 1;
 }
 
 .featured-new-body {
     margin-top: 24px;
     display: flex;
+}
+
+.featured-new-description {
+    flex: 1;
 }
 
 .featured-new-description p {
