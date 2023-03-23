@@ -6,5 +6,5 @@
 [x] Main grid layout
 [x] Featured news
 [x] Sidebar news
-[] Bottom news
+[x] Bottom news
 [] Last touches/responsive

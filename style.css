@@ -102,7 +102,7 @@ section#news-sidebar {
 }
 
 #news-sidebar .new-item:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid var(--grayish-blue);
     padding-bottom: 16px;
 }
 
@@ -131,4 +131,28 @@ section#news-sidebar {
 
 section#news-bottom {
     grid-area: newsBottom;
+    display: flex;
+    justify-content: space-between;
+}
+
+#news-bottom .new-bottom-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.new-body-number {
+    font-size: 24px;
+    color: var(--grayish-blue);
+    font-weight: 800;
+}
+
+.new-bottom-item h3 {
+    font-weight: 700;
+}
+
+.new-body-description {
+    font-size: 12px;
+    color: var(--dark-grayish-blue);
 }
