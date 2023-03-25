@@ -37,12 +37,16 @@ header {
     justify-content: space-between;
 }
 
-header nav {
+header .hamburger-menu-open {
+    display: none;
+}
+
+header .desktop-nav {
     display: flex;
     gap: 36px;
 }
 
-header nav a {
+header .desktop-nav a {
     color: var(--dark-grayish-blue);
 }
 
@@ -187,5 +191,52 @@ section#news-bottom {
     #news-bottom {
         flex-direction: column;
         gap: 24px;
+    }
+
+    header .desktop-nav {
+        display: none;
+    }
+
+    header .hamburger-menu-open {
+        display: block;
+    }
+
+    .mobile-nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        background-color: var(--white);
+    }
+
+    .hamburger-menu-wrapper {
+        display: flex;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .overlay {
+        flex: 1;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .mobile-nav {
+        margin-top: 72px;
+        margin-left: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .mobile-nav a {
+        color: var(--very-dark-blue);
+    }
+
+    .close-icon {
+        margin-left: auto;
+        margin-top: 24px;
+        margin-right: 24px;
     }
 }
