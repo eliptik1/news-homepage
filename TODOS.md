@@ -7,4 +7,4 @@
 [x] Featured news
 [x] Sidebar news
 [x] Bottom news
-[] Last touches/responsive
+[x] Last touches/responsive

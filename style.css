@@ -37,6 +37,10 @@ header {
     justify-content: space-between;
 }
 
+.hamburger-menu-wrapper {
+    display: none;
+}
+
 header .hamburger-menu-open {
     display: none;
 }
@@ -210,15 +214,17 @@ section#news-bottom {
 
     .hamburger-menu-wrapper {
         display: flex;
+        opacity: 0;
         position: absolute;
         top: 0;
         bottom: 0;
         right: 0;
         left: 100%;
-        transition: left 250ms ease;
+        transition: left 250ms ease, opacity 250ms ease;
     }
 
     .open {
+        opacity: 100%;
         left: 0;
     }
 
